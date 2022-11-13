@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/1bff6f55c0.js" crossorigin="anonymous"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>Youtube Mobile</title>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <i class="fa-brands fa-youtube"></i>
+                <span class="title">Youtube</span>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+        </header>
+        <!-- Video player -->
+        <section class="player">
+            <video src="image/video.mp4" controls>영상</video>    
+        </section>
+
+        <div class="infoAndUpNext">
+            <!-- Video info -->
+            <section class="info">
+                <div class="metadata">
+                <ul class="hashtags">
+                    <li>#Front-end</li>
+                    <li>#Dev</li>
+                    <li>#Union contents</li>
+                </ul>
+                <div class="titleAndButton">
+                    <span class="title clamp">
+                        Clone Coding: Youtube Mobile Website ㅣ [Playlist] 슬슬 연말 분위기를 내볼까요? | 퍼펙트 크리스마스 캐롤 플레이리스트🎄🎅🎁 | Best Christmas Pop Songs Of All Time 
+                    </span>
+                    <button class="moreBtn">
+                        <i class="fa-solid fa-caret-down"></i>
+                    </button>
+                </div>
+                    <span class="views">1M views 3 months ago</span>
+                </div>
+                <!-- Action Buttons -->
+                <ul class="actions">
+                <li>
+                    <button>
+                        <i class="active fas fa-thumbs-up"></i>
+                        <span>2K</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fa-solid fa-thumbs-down"></i><span>0</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-share"></i><span>Share</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fas fa-plus"></i><span>Save</span>
+                    </button>
+                </li>
+                <li>
+                    <button>
+                        <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+                    </button>
+                </li>
+                </ul>
+        
+                <!-- channel disciption-->
+                <div class="channel">
+                    <div class="metadata">
+                        <img src="image/증사.jpg" alt="" />
+                        <div class="info">
+                            <span class="name">KIMSOJIN</span>
+                            <span class="subscibers">100M subscibers</span>
+                        </div>
+                    </div>
+                    <button class="subscribe">subscribe</button>
+                </div>
+            </section>
+            <!-- Up Next -->
+            <section class="upNext">
+            <span class="title">Up next</span>
+            <ul>
+                <li class="item">
+                    <div class="img"><img src="image/캡처.PNG" alt=""></div>
+                    <div class="iteminfo">
+                        <span class="title">유니온 콘텐츠 ㅣ 사람과 기술을 중심으로 세상과의 조화를...</span>
+                        <span class="name">Dev sojin</span>
+                        <span class="views">90K</span>
+                    </div>
+                    <button class="moreBtn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                </li>
+                <li class="item">
+                    <div class="img"><img src="image/css.png" alt=""></div>
+                    <div class="iteminfo">
+                        <span class="title">
+                            HTML & CSS & JS Course for Beginners
+                          </span>
+                        <span class="name">Dev sojin</span>
+                        <span class="views">10M</span>
+                    </div>
+                    <button class="moreBtn"><i class="fa-solid fa-ellipsis-vertical"></i></button>
+                </li>
+                <li class="item"> 
+                    <div class="img"><img src="image/original.png" alt=""></div>
+                    <div class="iteminfo">
+                        <span class="title">개발자는 어떤일을 할까요?ㅣFront-end & Back-end </span>
+                        <span class="name">Dev sojin</span>
+                        <span class="views">24M</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+                <li class="item"> 
+                    <div class="img"><img src="image/typeScript.png" alt=""></div>
+                    <div class="iteminfo">
+                        <span class="title">타입스크립트 + 객체지향 프로그래밍 강의 (두마리 토끼를 🐰🐰)</span>
+                        <span class="name">Dev sojin</span>
+                        <span class="views">2.8M</span>
+                    </div>
+                    <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+                </li>
+            </ul>
+        </section>
+    </body>
+</html>
